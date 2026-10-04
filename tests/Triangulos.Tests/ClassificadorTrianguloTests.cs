@@ -61,4 +61,20 @@ public class ClassificadorTrianguloTests
         // Assert
         Assert.Equal(esperado, resultado);
     }
+    
+    [Theory]
+    [InlineData(double.NaN, 2, 2)]
+    [InlineData(2, double.NaN, 2)]
+    [InlineData(2, 2, double.NaN)]
+    [InlineData(double.PositiveInfinity, 2, 2)]
+    [InlineData(2, double.PositiveInfinity, 2)]
+    [InlineData(2, 2, double.PositiveInfinity)]
+    public void EhTriangulo_LadoNaoFinito_RetornaFalse(double a, double b, double c)
+    {
+        // Act
+        var resultado = ClassificadorTriangulo.EhTriangulo(a, b, c);
+    
+        // Assert
+        Assert.False(resultado);
+    }
 }
