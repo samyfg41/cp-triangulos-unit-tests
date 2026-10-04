@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0eebc3a1-623a-4793-85af-9ad39d58d27e" name="Lenovo@DESKTOP-2B179U5 2026-10-04 18:29:11" runUser="DESKTOP-2B179U5\Lenovo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-04T18:29:11.4758395-03:00" queuing="2026-10-04T18:29:11.4758397-03:00" start="2026-10-04T18:29:07.7309072-03:00" finish="2026-10-04T18:29:12.4481662-03:00" />
+  <TestSettings name="default" id="5b934116-6b14-4a7c-9ff6-6179f112d2bf">
+    <Deployment runDeploymentRoot="Lenovo_DESKTOP-2B179U5_2026-10-04_18_29_11" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e326eca7-ffee-4702-b29d-663ae9378efb" testId="52bbcad8-a6a5-4528-9ae0-8f788c95b00f" testName="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado(a: 4, b: 5, c: 3, esperado: Retangulo)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000060" startTime="2026-10-04T18:29:11.4774114-03:00" endTime="2026-10-04T18:29:11.4774115-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e326eca7-ffee-4702-b29d-663ae9378efb" />
+    <UnitTestResult executionId="3ee633e8-1985-4d67-9a84-cb46ccd97cd4" testId="f3279f59-88ea-aeee-f5e0-a38e830ed34a" testName="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado(a: 5, b: 3, c: 4, esperado: Retangulo)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000039" startTime="2026-10-04T18:29:11.4777637-03:00" endTime="2026-10-04T18:29:11.4777638-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ee633e8-1985-4d67-9a84-cb46ccd97cd4" />
+    <UnitTestResult executionId="7831b223-5541-43d5-9c0a-2a13c16a1f96" testId="1370eec6-dc8f-51a6-46bb-b58e83cc8f57" testName="Triangulos.Tests.CalculadoraTrianguloTests.Angulos_TrianguloValido_RetornaAngulosCorretos(a: 3, b: 4, c: 5, esperadoA: 36,869999999999997, esperadoB: 53,130000000000003, esperadoC: 90)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000073" startTime="2026-10-04T18:29:11.4655226-03:00" endTime="2026-10-04T18:29:11.4655228-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7831b223-5541-43d5-9c0a-2a13c16a1f96" />
+    <UnitTestResult executionId="34c3259c-7005-43c9-abfe-f4589d7778cb" testId="7058c156-b56a-1204-3274-cfcf5c5117ce" testName="Triangulos.Tests.Api.TriangulosApiTests.Analisar_TrianguloInvalido_Retorna422" computerName="DESKTOP-2B179U5" duration="00:00:00.0050272" startTime="2026-10-04T18:29:12.0331692-03:00" endTime="2026-10-04T18:29:12.0331696-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34c3259c-7005-43c9-abfe-f4589d7778cb" />
+    <UnitTestResult executionId="3d774cc5-8443-41d7-bb14-d4cb7153a1d8" testId="ff5e8970-269c-2cb5-db19-3b8839cc2964" testName="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloValido_RetornaAreaPelaFormulaDeHeron(a: 5, b: 5, c: 6, esperado: 12)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000050" startTime="2026-10-04T18:29:11.4719112-03:00" endTime="2026-10-04T18:29:11.4719113-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d774cc5-8443-41d7-bb14-d4cb7153a1d8" />
+    <UnitTestResult executionId="2ed41afa-5efd-4cb6-a6ce-ea256efc71f5" testId="94aa88b3-e395-de06-7841-315c2816a2a1" testName="Triangulos.Tests.Api.ExemploApiTests.Classificar_Triangulo345_RetornaEscaleno" computerName="DESKTOP-2B179U5" duration="00:00:00.5840831" startTime="2026-10-04T18:29:11.9720518-03:00" endTime="2026-10-04T18:29:11.9720522-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ed41afa-5efd-4cb6-a6ce-ea256efc71f5" />
+    <UnitTestResult executionId="0aaf4c4d-2721-455c-9e2c-695db83003e7" testId="0630e6f0-21f9-35e6-7a42-ede79370cf0c" testName="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloValido_RetornaAreaPelaFormulaDeHeron(a: 2, b: 3, c: 4, esperado: 2,8999999999999999)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000083" startTime="2026-10-04T18:29:11.4710418-03:00" endTime="2026-10-04T18:29:11.4710419-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0aaf4c4d-2721-455c-9e2c-695db83003e7" />
+    <UnitTestResult executionId="f7ba5162-db92-478c-b998-f6a38e135355" testId="53f6a036-6cc0-07c2-f8fb-55d67e1e67b1" testName="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 2, b: 2, c: 2, esperado: True)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000046" startTime="2026-10-04T18:29:11.4532521-03:00" endTime="2026-10-04T18:29:11.4532522-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7ba5162-db92-478c-b998-f6a38e135355" />
+    <UnitTestResult executionId="5e0143f4-0513-4d7f-ba89-59ad85319426" testId="e1f3f899-0689-b44c-0990-18ad6ecc5520" testName="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloInvalido_LancaTrianguloInvalidoException(a: 0, b: 2, c: 2)" computerName="DESKTOP-2B179U5" duration="00:00:00.0003898" startTime="2026-10-04T18:29:11.4696174-03:00" endTime="2026-10-04T18:29:11.4696175-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e0143f4-0513-4d7f-ba89-59ad85319426" />
+    <UnitTestResult executionId="8963a3da-ad11-4554-900e-7887a4c73d51" testId="42c04302-25c9-973e-c672-a29da3712f14" testName="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado(a: 2, b: 3, c: 4, esperado: Obtusangulo)" computerName="DESKTOP-2B179U5" duration="00:00:00.0001267" startTime="2026-10-04T18:29:11.4766727-03:00" endTime="2026-10-04T18:29:11.4766727-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8963a3da-ad11-4554-900e-7887a4c73d51" />
+    <UnitTestResult executionId="1a26d97e-474e-4397-b9d4-bc20d75b52cd" testId="294a00ef-b2dc-f98a-bd7a-a67199734f46" testName="Triangulos.Tests.ClassificadorTrianguloTests.Classificar_SomaDeDoisLadosIgualAoTerceiro_RetornaNaoEhTriangulo(a: 1, b: 2, c: 3)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000113" startTime="2026-10-04T18:29:11.4617477-03:00" endTime="2026-10-04T18:29:11.4617478-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a26d97e-474e-4397-b9d4-bc20d75b52cd" />
+    <UnitTestResult executionId="42f55e45-695c-40bf-ad32-6146d83c59bc" testId="81738bd0-175d-c1ff-ccf1-5f34685627fd" testName="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TriangulosValidos_RetornaResultadoEsperado(a: 3, b: 4, c: 5, esperado: True)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000045" startTime="2026-10-04T18:29:11.4529540-03:00" endTime="2026-10-04T18:29:11.4529542-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42f55e45-695c-40bf-ad32-6146d83c59bc" />
+    <UnitTestResult executionId="0650f64a-9b66-4989-893a-72f2a09de860" testId="592613be-f2df-cbc8-26ba-0b16cf32ec84" testName="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 3)" computerName="DESKTOP-2B179U5" duration="00:00:00.0003674" startTime="2026-10-04T18:29:11.4723440-03:00" endTime="2026-10-04T18:29:11.4723442-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0650f64a-9b66-4989-893a-72f2a09de860" />
+    <UnitTestResult executionId="10994ad2-f2cd-4baa-8951-df6eb5c8eb93" testId="76a72ec6-7887-3564-ba6b-b6c60f915364" testName="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloValido_RetornaAreaPelaFormulaDeHeron(a: 2, b: 2, c: 2, esperado: 1,73)" computerName="DESKTOP-2B179U5" duration="00:00:00.0001220" startTime="2026-10-04T18:29:11.4703153-03:00" endTime="2026-10-04T18:29:11.4703154-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10994ad2-f2cd-4baa-8951-df6eb5c8eb93" />
+    <UnitTestResult executionId="c52f0758-7288-44b1-8149-5f6e20a53d1d" testId="6287f04f-8e76-5caf-f2c4-5baefb1a4166" testName="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 3)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000472" startTime="2026-10-04T18:29:11.4672631-03:00" endTime="2026-10-04T18:29:11.4672632-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c52f0758-7288-44b1-8149-5f6e20a53d1d" />
+    <UnitTestResult executionId="9e8083b0-4abd-479f-8381-8f5092d89a44" testId="f9c941e4-81db-051d-4ac9-f6567e88a549" testName="Triangulos.Tests.ClassificadorTrianguloTests.Classificar_SomaDeDoisLadosIgualAoTerceiro_RetornaNaoEhTriangulo(a: 3, b: 1, c: 2)" computerName="DESKTOP-2B179U5" duration="00:00:00.0003142" startTime="2026-10-04T18:29:11.4607779-03:00" endTime="2026-10-04T18:29:11.4607780-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e8083b0-4abd-479f-8381-8f5092d89a44" />
+    <UnitTestResult executionId="d9f7f512-0921-402e-8be0-668dfedffc55" testId="12438906-7c64-a6b9-dec7-cc6011a89201" testName="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TriangulosValidos_RetornaResultadoEsperado(a: 4, b: 5, c: 3, esperado: True)" computerName="DESKTOP-2B179U5" duration="00:00:00.0144452" startTime="2026-10-04T18:29:11.4386505-03:00" endTime="2026-10-04T18:29:11.4386507-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9f7f512-0921-402e-8be0-668dfedffc55" />
+    <UnitTestResult executionId="e0cafec3-2f88-4953-8c6f-ea53276122b5" testId="c2f94ccb-1a29-3847-d859-5464933255af" testName="Triangulos.Tests.CalculadoraTrianguloTests.Angulos_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 3)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000425" startTime="2026-10-04T18:29:11.4744254-03:00" endTime="2026-10-04T18:29:11.4744255-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0cafec3-2f88-4953-8c6f-ea53276122b5" />
+    <UnitTestResult executionId="e11782e8-fedd-49bd-be9b-f6502fa5a961" testId="cea95c20-9c37-03b3-5810-d1a9f1344262" testName="Triangulos.Tests.Api.TriangulosApiTests.Classificar_ParametroNaoNumerico_Retorna400" computerName="DESKTOP-2B179U5" duration="00:00:00.0044519" startTime="2026-10-04T18:29:12.0140366-03:00" endTime="2026-10-04T18:29:12.0140370-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e11782e8-fedd-49bd-be9b-f6502fa5a961" />
+    <UnitTestResult executionId="99a9cb2c-d57c-4125-8ebc-363fa1fc1b2d" testId="4d2a9ca5-1af5-d5f2-2d60-3de044fb5cef" testName="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloInvalido_LancaTrianguloInvalidoException(a: -1, b: 2, c: 2)" computerName="DESKTOP-2B179U5" duration="00:00:00.0003630" startTime="2026-10-04T18:29:11.4727162-03:00" endTime="2026-10-04T18:29:11.4727164-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99a9cb2c-d57c-4125-8ebc-363fa1fc1b2d" />
+    <UnitTestResult executionId="0fe597df-f998-409d-beaf-ac1705b12b27" testId="1d81a6b1-5f77-ad45-b614-c5d48d6d54dc" testName="Triangulos.Tests.AnalisadorTrianguloTests.Analisar_TrianguloInvalido_LancaTrianguloInvalidoException(a: -1, b: 2, c: 2)" computerName="DESKTOP-2B179U5" duration="00:00:00.0014514" startTime="2026-10-04T18:29:11.4660874-03:00" endTime="2026-10-04T18:29:11.4660875-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fe597df-f998-409d-beaf-ac1705b12b27" />
+    <UnitTestResult executionId="b884874b-e4ac-4ed8-ad74-bc067c1882ee" testId="e7591361-f53a-5961-3517-0a25cc843d11" testName="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TriangulosValidos_RetornaResultadoEsperado(a: 2, b: 2, c: 2, esperado: False)" computerName="DESKTOP-2B179U5" duration="00:00:00.0003213" startTime="2026-10-04T18:29:11.4414353-03:00" endTime="2026-10-04T18:29:11.4414353-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b884874b-e4ac-4ed8-ad74-bc067c1882ee" />
+    <UnitTestResult executionId="29a4ae97-9a4e-4d7f-906b-a51bb22d0a0c" testId="11c868a3-0686-4561-f731-12918876c1d8" testName="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloValido_RetornaAreaPelaFormulaDeHeron(a: 3, b: 4, c: 5, esperado: 6)" computerName="DESKTOP-2B179U5" duration="00:00:00.0002906" startTime="2026-10-04T18:29:11.4706625-03:00" endTime="2026-10-04T18:29:11.4706626-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29a4ae97-9a4e-4d7f-906b-a51bb22d0a0c" />
+    <UnitTestResult executionId="7840f0cc-6acb-4235-97f2-22cab9d688a8" testId="f2f31740-0b7b-9bfb-5e1c-34892eccab95" testName="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloInvalido_LancaTrianguloInvalidoException(a: -1, b: 2, c: 2)" computerName="DESKTOP-2B179U5" duration="00:00:00.0004056" startTime="2026-10-04T18:29:11.4665757-03:00" endTime="2026-10-04T18:29:11.4665757-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7840f0cc-6acb-4235-97f2-22cab9d688a8" />
+    <UnitTestResult executionId="bc3602a8-f483-41b3-940d-e1ab46946784" testId="e8ff6785-726d-eef3-653d-ebe5e63d3353" testName="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 1, b: 2, c: 3, esperado: False)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000093" startTime="2026-10-04T18:29:11.4522105-03:00" endTime="2026-10-04T18:29:11.4522107-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc3602a8-f483-41b3-940d-e1ab46946784" />
+    <UnitTestResult executionId="9950fa79-3d3e-4168-a39f-93bf1ca91ca5" testId="f3b4988c-d4f3-91ab-8505-7aba6ec32b28" testName="Triangulos.Tests.Api.TriangulosApiTests.Classificar_TrianguloInexistente_Retorna200NaoEhTriangulo" computerName="DESKTOP-2B179U5" duration="00:00:00.0041554" startTime="2026-10-04T18:29:12.0226198-03:00" endTime="2026-10-04T18:29:12.0226204-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9950fa79-3d3e-4168-a39f-93bf1ca91ca5" />
+    <UnitTestResult executionId="d4d0c369-f2d4-463d-b1bb-ec75ba7cde05" testId="986b19c7-b616-d18d-2d0c-638124abcd3c" testName="Triangulos.Tests.AnalisadorTrianguloTests.Analisar_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 4)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000393" startTime="2026-10-04T18:29:11.4685813-03:00" endTime="2026-10-04T18:29:11.4685813-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4d0c369-f2d4-463d-b1bb-ec75ba7cde05" />
+    <UnitTestResult executionId="bbe1c2ce-74b6-462c-b907-130d52804431" testId="38db4a5b-6551-f7a1-a995-a3b112aaeffe" testName="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 3, b: 4, c: 5, esperado: True)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000038" startTime="2026-10-04T18:29:11.4544472-03:00" endTime="2026-10-04T18:29:11.4544474-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbe1c2ce-74b6-462c-b907-130d52804431" />
+    <UnitTestResult executionId="e2266ed9-da6f-4d14-a67d-b6236d0cda87" testId="49d94c77-846b-71b6-b111-dfd8ce15ce0a" testName="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloInvalido_LancaTrianguloInvalidoException(a: 0, b: 2, c: 2)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000282" startTime="2026-10-04T18:29:11.4733967-03:00" endTime="2026-10-04T18:29:11.4733967-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2266ed9-da6f-4d14-a67d-b6236d0cda87" />
+    <UnitTestResult executionId="fcfa7e4d-28fa-47be-b874-a50ebd6fd03b" testId="92d492ba-fe3b-36b7-2de5-58a8580bd22d" testName="Triangulos.Tests.AnalisadorTrianguloTests.Analisar_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 3)" computerName="DESKTOP-2B179U5" duration="00:00:00.0004051" startTime="2026-10-04T18:29:11.4667271-03:00" endTime="2026-10-04T18:29:11.4667272-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcfa7e4d-28fa-47be-b874-a50ebd6fd03b" />
+    <UnitTestResult executionId="e9b4b291-7790-4472-ad6b-9dcd5e8d728d" testId="568ac72c-30d5-594c-b00a-d4a4a6a31bb0" testName="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado(a: 2, b: 2, c: 2, esperado: Acutangulo)" computerName="DESKTOP-2B179U5" duration="00:00:00.0002227" startTime="2026-10-04T18:29:11.4770683-03:00" endTime="2026-10-04T18:29:11.4770684-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9b4b291-7790-4472-ad6b-9dcd5e8d728d" />
+    <UnitTestResult executionId="acef3be4-0e02-4910-b55c-eeb16106da4a" testId="7aa341a7-59b1-d9e9-cca9-d75308ad427d" testName="Triangulos.Tests.Api.TriangulosApiTests.Classificar_ParametroAusente_Retorna400" computerName="DESKTOP-2B179U5" duration="00:00:00.0061276" startTime="2026-10-04T18:29:12.0091481-03:00" endTime="2026-10-04T18:29:12.0091485-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="acef3be4-0e02-4910-b55c-eeb16106da4a" />
+    <UnitTestResult executionId="6565bb4d-5bcb-4449-bbf4-0dfc375dfac7" testId="ceded00d-0dbd-8034-ea30-f9a1c1c58687" testName="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 2, b: 3, c: 1, esperado: False)" computerName="DESKTOP-2B179U5" duration="00:00:00.0003242" startTime="2026-10-04T18:29:11.4412073-03:00" endTime="2026-10-04T18:29:11.4412074-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6565bb4d-5bcb-4449-bbf4-0dfc375dfac7" />
+    <UnitTestResult executionId="c8cdcbb1-a4a1-40fb-8b8a-8993f39218df" testId="632f2354-b6ed-522c-5584-1136c50af43e" testName="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloValido_RetornaSomaDosLados(a: 3, b: 4, c: 5, esperado: 12)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000049" startTime="2026-10-04T18:29:11.4635122-03:00" endTime="2026-10-04T18:29:11.4635122-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8cdcbb1-a4a1-40fb-8b8a-8993f39218df" />
+    <UnitTestResult executionId="d2deb490-ddd0-4430-bdd7-b25653282a7b" testId="8b63b011-c6ab-f7a3-03c7-630802668c79" testName="Triangulos.Tests.CalculadoraTrianguloTests.Angulos_TrianguloInvalido_LancaTrianguloInvalidoException(a: 0, b: 2, c: 2)" computerName="DESKTOP-2B179U5" duration="00:00:00.0002686" startTime="2026-10-04T18:29:11.4740914-03:00" endTime="2026-10-04T18:29:11.4740915-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2deb490-ddd0-4430-bdd7-b25653282a7b" />
+    <UnitTestResult executionId="c6d5aa91-1e9e-4eff-b1e3-fc7ae7f5f77a" testId="f1e0f2ca-47a5-47e9-831c-1ef59658b3b7" testName="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 4)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000458" startTime="2026-10-04T18:29:11.4699456-03:00" endTime="2026-10-04T18:29:11.4699456-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6d5aa91-1e9e-4eff-b1e3-fc7ae7f5f77a" />
+    <UnitTestResult executionId="0b4f8b9f-68a0-42c8-9928-52b4409d0b9a" testId="72fbecaa-a109-01ec-d6a9-c5a8f9986998" testName="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloValido_RetornaSomaDosLados(a: 2, b: 3, c: 4, esperado: 9)" computerName="DESKTOP-2B179U5" duration="00:00:00.0003717" startTime="2026-10-04T18:29:11.4627368-03:00" endTime="2026-10-04T18:29:11.4627371-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b4f8b9f-68a0-42c8-9928-52b4409d0b9a" />
+    <UnitTestResult executionId="83b925ae-5c6d-421a-9062-aaf5a59c763d" testId="aec31bf0-d3b0-5cf7-52eb-6ea70a08142e" testName="Triangulos.Tests.AnalisadorTrianguloTests.Analisar_TrianguloInvalido_LancaTrianguloInvalidoException(a: 0, b: 2, c: 2)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000471" startTime="2026-10-04T18:29:11.4674177-03:00" endTime="2026-10-04T18:29:11.4674178-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83b925ae-5c6d-421a-9062-aaf5a59c763d" />
+    <UnitTestResult executionId="59d2f62b-0319-429d-b394-8fadd035a214" testId="5a413921-7cda-2943-5d1f-50980bd2f7bd" testName="Triangulos.Tests.CalculadoraTrianguloTests.Angulos_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 4)" computerName="DESKTOP-2B179U5" duration="00:00:00.0002300" startTime="2026-10-04T18:29:11.4737341-03:00" endTime="2026-10-04T18:29:11.4737342-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59d2f62b-0319-429d-b394-8fadd035a214" />
+    <UnitTestResult executionId="62250a8b-ba94-49e9-8cd7-a31e9e62bfc2" testId="8e7caac8-8f5e-461a-7f55-c8b71eea8168" testName="Triangulos.Tests.AnalisadorTrianguloTests.Classificar_PermutacaoDosLados_MantemClassificacao" computerName="DESKTOP-2B179U5" duration="00:00:00.0004769" startTime="2026-10-04T18:29:11.4694220-03:00" endTime="2026-10-04T18:29:11.4694220-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62250a8b-ba94-49e9-8cd7-a31e9e62bfc2" />
+    <UnitTestResult executionId="1de83959-3d92-410c-aada-7f98208ae666" testId="20bb0c7e-2884-ff49-04e5-c0da2091c098" testName="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: -1, b: 2, c: 2, esperado: False)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000051" startTime="2026-10-04T18:29:11.4548353-03:00" endTime="2026-10-04T18:29:11.4548354-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1de83959-3d92-410c-aada-7f98208ae666" />
+    <UnitTestResult executionId="8ca0c2b0-20c6-47f7-8aef-57a1b83f0b23" testId="3d057426-43d2-e2ac-1362-b86b171e1e93" testName="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TriangulosValidos_RetornaResultadoEsperado(a: 5, b: 3, c: 4, esperado: True)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000113" startTime="2026-10-04T18:29:11.4524096-03:00" endTime="2026-10-04T18:29:11.4524097-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ca0c2b0-20c6-47f7-8aef-57a1b83f0b23" />
+    <UnitTestResult executionId="892e0332-0d9f-4083-9c44-b90e41bd3c79" testId="d0896bcd-e035-c945-bed5-fb6b14ee43b1" testName="Triangulos.Tests.CalculadoraTrianguloTests.Angulos_TrianguloValido_RetornaAngulosCorretos(a: 4, b: 5, c: 3, esperadoA: 53,130000000000003, esperadoB: 90, esperadoC: 36,869999999999997)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000150" startTime="2026-10-04T18:29:11.4651374-03:00" endTime="2026-10-04T18:29:11.4651375-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="892e0332-0d9f-4083-9c44-b90e41bd3c79" />
+    <UnitTestResult executionId="98b0938a-374a-4c77-816f-5972a6439fa4" testId="a368ed35-4128-32fb-c029-7f7e77ff0d32" testName="Triangulos.Tests.Api.TriangulosApiTests.Classificar_Triangulo345_Retorna200Escaleno" computerName="DESKTOP-2B179U5" duration="00:00:00.0032326" startTime="2026-10-04T18:29:12.0178117-03:00" endTime="2026-10-04T18:29:12.0178122-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98b0938a-374a-4c77-816f-5972a6439fa4" />
+    <UnitTestResult executionId="3d336476-c748-4eb6-ba46-ea7ea9ff1687" testId="46a4207c-504c-d7e7-2ace-896fe6d82530" testName="Triangulos.Tests.Api.ExemploApiTests.Health_RetornaOk" computerName="DESKTOP-2B179U5" duration="00:00:00.0105186" startTime="2026-10-04T18:29:11.9851054-03:00" endTime="2026-10-04T18:29:11.9851062-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d336476-c748-4eb6-ba46-ea7ea9ff1687" />
+    <UnitTestResult executionId="b04438ad-da79-44f0-9d40-801c8ebab4ba" testId="d3095547-416a-0fb3-7499-0e1ad86431e6" testName="Triangulos.Tests.CalculadoraTrianguloTests.Angulos_TrianguloValido_RetornaAngulosCorretos(a: 2, b: 2, c: 2, esperadoA: 60, esperadoB: 60, esperadoC: 60)" computerName="DESKTOP-2B179U5" duration="00:00:00.0002256" startTime="2026-10-04T18:29:11.4638609-03:00" endTime="2026-10-04T18:29:11.4638610-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b04438ad-da79-44f0-9d40-801c8ebab4ba" />
+    <UnitTestResult executionId="5a7898f1-b486-45d3-a843-2742fc9fbd45" testId="f90b76c5-f071-1263-f244-4cf02c452a9e" testName="Triangulos.Tests.ClassificadorTrianguloTests.Classificar_SomaDeDoisLadosIgualAoTerceiro_RetornaNaoEhTriangulo(a: 2, b: 3, c: 1)" computerName="DESKTOP-2B179U5" duration="00:00:00.0001281" startTime="2026-10-04T18:29:11.4604532-03:00" endTime="2026-10-04T18:29:11.4604534-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a7898f1-b486-45d3-a843-2742fc9fbd45" />
+    <UnitTestResult executionId="b8a6e165-3022-42cf-aecc-7d9683835270" testId="8a7b1ec1-4c7f-5a7d-8626-2292757278e6" testName="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloInvalido_LancaTrianguloInvalidoException(a: 0, b: 2, c: 2)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000360" startTime="2026-10-04T18:29:11.4683876-03:00" endTime="2026-10-04T18:29:11.4683877-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8a6e165-3022-42cf-aecc-7d9683835270" />
+    <UnitTestResult executionId="129bf100-1f58-4462-86c3-97008c8a4467" testId="be5062c7-f545-619b-2f2e-86bd91847beb" testName="Triangulos.Tests.Api.TriangulosApiTests.Analisar_JsonMalformado_Retorna400" computerName="DESKTOP-2B179U5" duration="00:00:00.5832696" startTime="2026-10-04T18:29:11.9725838-03:00" endTime="2026-10-04T18:29:11.9725839-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="129bf100-1f58-4462-86c3-97008c8a4467" />
+    <UnitTestResult executionId="462074b7-e23e-459c-92d1-10e8250cbfd8" testId="12d6d423-433d-2c6c-46bb-ca32a6ee7308" testName="Triangulos.Tests.AnalisadorTrianguloTests.Analisar_Triangulo345_RetornaAnaliseCompleta" computerName="DESKTOP-2B179U5" duration="00:00:00.0206783" startTime="2026-10-04T18:29:11.4622638-03:00" endTime="2026-10-04T18:29:11.4622639-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="462074b7-e23e-459c-92d1-10e8250cbfd8" />
+    <UnitTestResult executionId="b8b6c140-28db-45d2-a6be-2594a3984518" testId="70701cf2-cc3c-9d3e-d720-719e096ac8e2" testName="Triangulos.Tests.ExemploTests.Classificar_TresLadosIguais_RetornaEquilatero(a: 2,5, b: 2,5, c: 2,5)" computerName="DESKTOP-2B179U5" duration="00:00:00.0003564" startTime="2026-10-04T18:29:11.4517722-03:00" endTime="2026-10-04T18:29:11.4517728-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8b6c140-28db-45d2-a6be-2594a3984518" />
+    <UnitTestResult executionId="97256a50-ef8f-4ea5-aaf8-5ced53351126" testId="7d6fbfd6-e88f-df04-4828-964c3a7489e8" testName="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 4)" computerName="DESKTOP-2B179U5" duration="00:00:00.0004016" startTime="2026-10-04T18:29:11.4659142-03:00" endTime="2026-10-04T18:29:11.4659142-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97256a50-ef8f-4ea5-aaf8-5ced53351126" />
+    <UnitTestResult executionId="0c97f0ae-1158-4a77-a57a-59afae299b58" testId="5132f3e5-46d0-d284-1be5-b1ef0cca2a15" testName="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 4)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000331" startTime="2026-10-04T18:29:11.4762152-03:00" endTime="2026-10-04T18:29:11.4762153-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c97f0ae-1158-4a77-a57a-59afae299b58" />
+    <UnitTestResult executionId="f63d8588-7f08-4a49-809c-dc73665ac540" testId="11a74777-3e3f-2579-e9bf-d48e6e9ca5b5" testName="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloValido_RetornaSomaDosLados(a: 2,5, b: 3,5, c: 4, esperado: 10)" computerName="DESKTOP-2B179U5" duration="00:00:00.0012102" startTime="2026-10-04T18:29:11.4619350-03:00" endTime="2026-10-04T18:29:11.4619351-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f63d8588-7f08-4a49-809c-dc73665ac540" />
+    <UnitTestResult executionId="de0104a6-945d-4590-ac94-7149938713ad" testId="cc41fb58-f46f-6b60-2143-6760b6f150e8" testName="Triangulos.Tests.ClassificadorTrianguloTests.Classificar_DoisLadosIguais_RetornaIsosceles(a: 2, b: 3, c: 2)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000101" startTime="2026-10-04T18:29:11.4600921-03:00" endTime="2026-10-04T18:29:11.4600922-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de0104a6-945d-4590-ac94-7149938713ad" />
+    <UnitTestResult executionId="0742ab0e-9165-4e7d-aef1-c3f27eec7787" testId="6072f4d4-7d46-5dcf-4d8b-1bd5602f6dac" testName="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 2, b: 3, c: 4, esperado: True)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000054" startTime="2026-10-04T18:29:11.4540596-03:00" endTime="2026-10-04T18:29:11.4540597-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0742ab0e-9165-4e7d-aef1-c3f27eec7787" />
+    <UnitTestResult executionId="4e4561af-4d98-416c-8cb1-c52803efd78c" testId="222ed52b-19c7-be9f-d6f5-d901a1bac3ab" testName="Triangulos.Tests.ExemploTests.Classificar_TresLadosIguais_RetornaEquilatero(a: 1, b: 1, c: 1)" computerName="DESKTOP-2B179U5" duration="00:00:00.0144016" startTime="2026-10-04T18:29:11.4394779-03:00" endTime="2026-10-04T18:29:11.4394780-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e4561af-4d98-416c-8cb1-c52803efd78c" />
+    <UnitTestResult executionId="8c5ea4b9-71a0-4844-aaf8-b1798a05f037" testId="bfc53a7a-a45f-e873-219f-db6770799ce4" testName="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado(a: 3, b: 4, c: 5, esperado: Retangulo)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000036" startTime="2026-10-04T18:29:11.4781011-03:00" endTime="2026-10-04T18:29:11.4781012-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c5ea4b9-71a0-4844-aaf8-b1798a05f037" />
+    <UnitTestResult executionId="205c7f4a-bdfd-4340-a25a-5cea6dacc056" testId="5933dda7-f480-a915-57d5-30a098829b21" testName="Triangulos.Tests.ClassificadorTrianguloTests.Classificar_DoisLadosIguais_RetornaIsosceles(a: 3, b: 2, c: 2)" computerName="DESKTOP-2B179U5" duration="00:00:00.0001418" startTime="2026-10-04T18:29:11.4592358-03:00" endTime="2026-10-04T18:29:11.4592360-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="205c7f4a-bdfd-4340-a25a-5cea6dacc056" />
+    <UnitTestResult executionId="a533d715-3372-4254-9ad4-214a82031d5d" testId="8835f651-3c57-d719-3a81-3d426d61b487" testName="Triangulos.Tests.CalculadoraTrianguloTests.Angulos_TrianguloValido_RetornaAngulosCorretos(a: 5, b: 3, c: 4, esperadoA: 90, esperadoB: 36,869999999999997, esperadoC: 53,130000000000003)" computerName="DESKTOP-2B179U5" duration="00:00:00.0003911" startTime="2026-10-04T18:29:11.4642066-03:00" endTime="2026-10-04T18:29:11.4642067-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a533d715-3372-4254-9ad4-214a82031d5d" />
+    <UnitTestResult executionId="f5e986d5-512a-46a1-ba59-324763a58498" testId="d8ed99f9-552f-7f10-667f-8b3defe3814b" testName="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloValido_RetornaSomaDosLados(a: 2, b: 2, c: 2, esperado: 6)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000092" startTime="2026-10-04T18:29:11.4631345-03:00" endTime="2026-10-04T18:29:11.4631346-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5e986d5-512a-46a1-ba59-324763a58498" />
+    <UnitTestResult executionId="94d3ef5b-3bc4-4209-82f7-69357dc102c3" testId="d605dd75-a0f0-efa8-17a6-33076763af72" testName="Triangulos.Tests.ExemploTests.Classificar_TresLadosDiferentes_RetornaEscaleno" computerName="DESKTOP-2B179U5" duration="00:00:00.0001528" startTime="2026-10-04T18:29:11.4594397-03:00" endTime="2026-10-04T18:29:11.4594399-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94d3ef5b-3bc4-4209-82f7-69357dc102c3" />
+    <UnitTestResult executionId="02381095-654f-48fb-8757-c342ba5cb9eb" testId="822299f6-7732-98af-061c-86c91ac3c152" testName="Triangulos.Tests.ClassificadorTrianguloTests.Classificar_DoisLadosIguais_RetornaIsosceles(a: 2, b: 2, c: 3)" computerName="DESKTOP-2B179U5" duration="00:00:00.0002546" startTime="2026-10-04T18:29:11.4597779-03:00" endTime="2026-10-04T18:29:11.4597780-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02381095-654f-48fb-8757-c342ba5cb9eb" />
+    <UnitTestResult executionId="e5a548d5-c83a-4f72-8a96-029ca85ee25e" testId="8b823932-e82c-405e-3445-f812721c6883" testName="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 0, b: 2, c: 2, esperado: False)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000036" startTime="2026-10-04T18:29:11.4587547-03:00" endTime="2026-10-04T18:29:11.4587551-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5a548d5-c83a-4f72-8a96-029ca85ee25e" />
+    <UnitTestResult executionId="8a58ff4f-4b50-4f75-b29a-a5879413763c" testId="b1d43c89-f3e1-01fc-1496-b86fb0201796" testName="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TriangulosValidos_RetornaResultadoEsperado(a: 2, b: 3, c: 4, esperado: False)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000064" startTime="2026-10-04T18:29:11.4538643-03:00" endTime="2026-10-04T18:29:11.4538645-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a58ff4f-4b50-4f75-b29a-a5879413763c" />
+    <UnitTestResult executionId="b1abb687-a929-4363-9ec4-0128ffb80255" testId="a4bb509c-0346-ecfe-ea50-aa4a1b0738c0" testName="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 3)" computerName="DESKTOP-2B179U5" duration="00:00:00.0004600" startTime="2026-10-04T18:29:11.4690999-03:00" endTime="2026-10-04T18:29:11.4691000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1abb687-a929-4363-9ec4-0128ffb80255" />
+    <UnitTestResult executionId="3d8f18cb-97d6-4a32-b74c-ea651bb4f3e1" testId="3c112402-a249-3b32-7b0b-952c32058a61" testName="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 1, b: 2, c: 4, esperado: False)" computerName="DESKTOP-2B179U5" duration="00:00:00.0143924" startTime="2026-10-04T18:29:11.4300449-03:00" endTime="2026-10-04T18:29:11.4300731-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d8f18cb-97d6-4a32-b74c-ea651bb4f3e1" />
+    <UnitTestResult executionId="90a21cc0-6ef2-458c-b1da-093dad8101a3" testId="e4178580-80d3-1708-f75f-d7d889cb1941" testName="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 3, b: 1, c: 2, esperado: False)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000039" startTime="2026-10-04T18:29:11.4578139-03:00" endTime="2026-10-04T18:29:11.4578142-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90a21cc0-6ef2-458c-b1da-093dad8101a3" />
+    <UnitTestResult executionId="4029e7fd-34ea-46c7-9103-836f7fe5e921" testId="8e34b37e-fe43-e5f5-51d2-6c8ec91ee91b" testName="Triangulos.Tests.Api.TriangulosApiTests.Health_RequisicaoValida_Retorna200" computerName="DESKTOP-2B179U5" duration="00:00:00.0042499" startTime="2026-10-04T18:29:12.0276902-03:00" endTime="2026-10-04T18:29:12.0276907-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4029e7fd-34ea-46c7-9103-836f7fe5e921" />
+    <UnitTestResult executionId="80cafd4e-c6af-447a-a8c6-ceef43419cc2" testId="73d2f412-9bcc-4e1b-24a6-837f2d53f5e9" testName="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 3)" computerName="DESKTOP-2B179U5" duration="00:00:00.0002908" startTime="2026-10-04T18:29:11.4758059-03:00" endTime="2026-10-04T18:29:11.4758060-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80cafd4e-c6af-447a-a8c6-ceef43419cc2" />
+    <UnitTestResult executionId="5d31dc63-4ab3-476c-997e-3a1f15428916" testId="3c970e88-d653-e734-25dd-8b3ce1bd025c" testName="Triangulos.Tests.Api.TriangulosApiTests.Analisar_Triangulo345_Retorna200ComAnalise" computerName="DESKTOP-2B179U5" duration="00:00:00.0284173" startTime="2026-10-04T18:29:12.0026105-03:00" endTime="2026-10-04T18:29:12.0026110-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d31dc63-4ab3-476c-997e-3a1f15428916" />
+    <UnitTestResult executionId="83480e70-1dea-4b29-bd55-4bda4f723b9a" testId="5b2f0f18-66e7-62de-2838-2f5cc895a695" testName="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 4)" computerName="DESKTOP-2B179U5" duration="00:00:00.0000371" startTime="2026-10-04T18:29:11.4730754-03:00" endTime="2026-10-04T18:29:11.4730755-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83480e70-1dea-4b29-bd55-4bda4f723b9a" />
+    <UnitTestResult executionId="d33ea594-66b8-47dc-872f-6bcda2af02e4" testId="b8d1e4df-4361-4eb6-dacd-fe5d6a1fe1c9" testName="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TrianguloInvalido_LancaTrianguloInvalidoException(a: 0, b: 2, c: 2)" computerName="DESKTOP-2B179U5" duration="00:00:00.0002746" startTime="2026-10-04T18:29:11.4747595-03:00" endTime="2026-10-04T18:29:11.4747596-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d33ea594-66b8-47dc-872f-6bcda2af02e4" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado(a: 3, b: 4, c: 5, esperado: Retangulo)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="bfc53a7a-a45f-e873-219f-db6770799ce4">
+      <Execution id="8c5ea4b9-71a0-4844-aaf8-b1798a05f037" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Angulos_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 4)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="5a413921-7cda-2943-5d1f-50980bd2f7bd">
+      <Execution id="59d2f62b-0319-429d-b394-8fadd035a214" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Angulos_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloInvalido_LancaTrianguloInvalidoException(a: -1, b: 2, c: 2)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="f2f31740-0b7b-9bfb-5e1c-34892eccab95">
+      <Execution id="7840f0cc-6acb-4235-97f2-22cab9d688a8" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Perimetro_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.Api.TriangulosApiTests.Classificar_ParametroAusente_Retorna400" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="7aa341a7-59b1-d9e9-cca9-d75308ad427d">
+      <Execution id="acef3be4-0e02-4910-b55c-eeb16106da4a" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.Api.TriangulosApiTests" name="Classificar_ParametroAusente_Retorna400" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloValido_RetornaAreaPelaFormulaDeHeron(a: 5, b: 5, c: 6, esperado: 12)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="ff5e8970-269c-2cb5-db19-3b8839cc2964">
+      <Execution id="3d774cc5-8443-41d7-bb14-d4cb7153a1d8" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Area_TrianguloValido_RetornaAreaPelaFormulaDeHeron" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 2, b: 3, c: 1, esperado: False)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="ceded00d-0dbd-8034-ea30-f9a1c1c58687">
+      <Execution id="6565bb4d-5bcb-4449-bbf4-0dfc375dfac7" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="EhTriangulo_EntradasVariadas_RetornaResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 2, b: 2, c: 2, esperado: True)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="53f6a036-6cc0-07c2-f8fb-55d67e1e67b1">
+      <Execution id="f7ba5162-db92-478c-b998-f6a38e135355" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="EhTriangulo_EntradasVariadas_RetornaResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 0, b: 2, c: 2, esperado: False)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="8b823932-e82c-405e-3445-f812721c6883">
+      <Execution id="e5a548d5-c83a-4f72-8a96-029ca85ee25e" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="EhTriangulo_EntradasVariadas_RetornaResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.Api.TriangulosApiTests.Analisar_Triangulo345_Retorna200ComAnalise" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="3c970e88-d653-e734-25dd-8b3ce1bd025c">
+      <Execution id="5d31dc63-4ab3-476c-997e-3a1f15428916" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.Api.TriangulosApiTests" name="Analisar_Triangulo345_Retorna200ComAnalise" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado(a: 5, b: 3, c: 4, esperado: Retangulo)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="f3279f59-88ea-aeee-f5e0-a38e830ed34a">
+      <Execution id="3ee633e8-1985-4d67-9a84-cb46ccd97cd4" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 3, b: 4, c: 5, esperado: True)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="38db4a5b-6551-f7a1-a995-a3b112aaeffe">
+      <Execution id="bbe1c2ce-74b6-462c-b907-130d52804431" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="EhTriangulo_EntradasVariadas_RetornaResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Angulos_TrianguloValido_RetornaAngulosCorretos(a: 3, b: 4, c: 5, esperadoA: 36,869999999999997, esperadoB: 53,130000000000003, esperadoC: 90)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="1370eec6-dc8f-51a6-46bb-b58e83cc8f57">
+      <Execution id="7831b223-5541-43d5-9c0a-2a13c16a1f96" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Angulos_TrianguloValido_RetornaAngulosCorretos" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.AnalisadorTrianguloTests.Classificar_PermutacaoDosLados_MantemClassificacao" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="8e7caac8-8f5e-461a-7f55-c8b71eea8168">
+      <Execution id="62250a8b-ba94-49e9-8cd7-a31e9e62bfc2" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.AnalisadorTrianguloTests" name="Classificar_PermutacaoDosLados_MantemClassificacao" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloValido_RetornaAreaPelaFormulaDeHeron(a: 2, b: 3, c: 4, esperado: 2,8999999999999999)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="0630e6f0-21f9-35e6-7a42-ede79370cf0c">
+      <Execution id="0aaf4c4d-2721-455c-9e2c-695db83003e7" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Area_TrianguloValido_RetornaAreaPelaFormulaDeHeron" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloValido_RetornaAreaPelaFormulaDeHeron(a: 2, b: 2, c: 2, esperado: 1,73)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="76a72ec6-7887-3564-ba6b-b6c60f915364">
+      <Execution id="10994ad2-f2cd-4baa-8951-df6eb5c8eb93" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Area_TrianguloValido_RetornaAreaPelaFormulaDeHeron" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.Classificar_SomaDeDoisLadosIgualAoTerceiro_RetornaNaoEhTriangulo(a: 3, b: 1, c: 2)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="f9c941e4-81db-051d-4ac9-f6567e88a549">
+      <Execution id="9e8083b0-4abd-479f-8381-8f5092d89a44" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="Classificar_SomaDeDoisLadosIgualAoTerceiro_RetornaNaoEhTriangulo" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 3)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="592613be-f2df-cbc8-26ba-0b16cf32ec84">
+      <Execution id="0650f64a-9b66-4989-893a-72f2a09de860" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Area_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 4)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="5b2f0f18-66e7-62de-2838-2f5cc895a695">
+      <Execution id="83480e70-1dea-4b29-bd55-4bda4f723b9a" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Area_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 3, b: 1, c: 2, esperado: False)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="e4178580-80d3-1708-f75f-d7d889cb1941">
+      <Execution id="90a21cc0-6ef2-458c-b1da-093dad8101a3" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="EhTriangulo_EntradasVariadas_RetornaResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.Classificar_DoisLadosIguais_RetornaIsosceles(a: 2, b: 3, c: 2)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="cc41fb58-f46f-6b60-2143-6760b6f150e8">
+      <Execution id="de0104a6-945d-4590-ac94-7149938713ad" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="Classificar_DoisLadosIguais_RetornaIsosceles" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado(a: 2, b: 3, c: 4, esperado: Obtusangulo)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="42c04302-25c9-973e-c672-a29da3712f14">
+      <Execution id="8963a3da-ad11-4554-900e-7887a4c73d51" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Angulos_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 3)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="c2f94ccb-1a29-3847-d859-5464933255af">
+      <Execution id="e0cafec3-2f88-4953-8c6f-ea53276122b5" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Angulos_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.Classificar_SomaDeDoisLadosIgualAoTerceiro_RetornaNaoEhTriangulo(a: 2, b: 3, c: 1)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="f90b76c5-f071-1263-f244-4cf02c452a9e">
+      <Execution id="5a7898f1-b486-45d3-a843-2742fc9fbd45" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="Classificar_SomaDeDoisLadosIgualAoTerceiro_RetornaNaoEhTriangulo" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.Api.TriangulosApiTests.Classificar_ParametroNaoNumerico_Retorna400" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="cea95c20-9c37-03b3-5810-d1a9f1344262">
+      <Execution id="e11782e8-fedd-49bd-be9b-f6502fa5a961" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.Api.TriangulosApiTests" name="Classificar_ParametroNaoNumerico_Retorna400" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloInvalido_LancaTrianguloInvalidoException(a: 0, b: 2, c: 2)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="8a7b1ec1-4c7f-5a7d-8626-2292757278e6">
+      <Execution id="b8a6e165-3022-42cf-aecc-7d9683835270" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Perimetro_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloValido_RetornaSomaDosLados(a: 2,5, b: 3,5, c: 4, esperado: 10)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="11a74777-3e3f-2579-e9bf-d48e6e9ca5b5">
+      <Execution id="f63d8588-7f08-4a49-809c-dc73665ac540" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Perimetro_TrianguloValido_RetornaSomaDosLados" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.Api.TriangulosApiTests.Classificar_TrianguloInexistente_Retorna200NaoEhTriangulo" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="f3b4988c-d4f3-91ab-8505-7aba6ec32b28">
+      <Execution id="9950fa79-3d3e-4168-a39f-93bf1ca91ca5" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.Api.TriangulosApiTests" name="Classificar_TrianguloInexistente_Retorna200NaoEhTriangulo" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.Api.ExemploApiTests.Classificar_Triangulo345_RetornaEscaleno" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="94aa88b3-e395-de06-7841-315c2816a2a1">
+      <Execution id="2ed41afa-5efd-4cb6-a6ce-ea256efc71f5" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.Api.ExemploApiTests" name="Classificar_Triangulo345_RetornaEscaleno" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 3)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="73d2f412-9bcc-4e1b-24a6-837f2d53f5e9">
+      <Execution id="80cafd4e-c6af-447a-a8c6-ceef43419cc2" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="EhRetangulo_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloValido_RetornaSomaDosLados(a: 2, b: 2, c: 2, esperado: 6)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="d8ed99f9-552f-7f10-667f-8b3defe3814b">
+      <Execution id="f5e986d5-512a-46a1-ba59-324763a58498" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Perimetro_TrianguloValido_RetornaSomaDosLados" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ExemploTests.Classificar_TresLadosIguais_RetornaEquilatero(a: 1, b: 1, c: 1)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="222ed52b-19c7-be9f-d6f5-d901a1bac3ab">
+      <Execution id="4e4561af-4d98-416c-8cb1-c52803efd78c" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ExemploTests" name="Classificar_TresLadosIguais_RetornaEquilatero" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 1, b: 2, c: 4, esperado: False)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="3c112402-a249-3b32-7b0b-952c32058a61">
+      <Execution id="3d8f18cb-97d6-4a32-b74c-ea651bb4f3e1" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="EhTriangulo_EntradasVariadas_RetornaResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TriangulosValidos_RetornaResultadoEsperado(a: 3, b: 4, c: 5, esperado: True)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="81738bd0-175d-c1ff-ccf1-5f34685627fd">
+      <Execution id="42f55e45-695c-40bf-ad32-6146d83c59bc" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="EhRetangulo_TriangulosValidos_RetornaResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloInvalido_LancaTrianguloInvalidoException(a: 0, b: 2, c: 2)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="e1f3f899-0689-b44c-0990-18ad6ecc5520">
+      <Execution id="5e0143f4-0513-4d7f-ba89-59ad85319426" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="ClassificarPorAngulo_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.Api.TriangulosApiTests.Health_RequisicaoValida_Retorna200" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="8e34b37e-fe43-e5f5-51d2-6c8ec91ee91b">
+      <Execution id="4029e7fd-34ea-46c7-9103-836f7fe5e921" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.Api.TriangulosApiTests" name="Health_RequisicaoValida_Retorna200" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloInvalido_LancaTrianguloInvalidoException(a: -1, b: 2, c: 2)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="4d2a9ca5-1af5-d5f2-2d60-3de044fb5cef">
+      <Execution id="99a9cb2c-d57c-4125-8ebc-363fa1fc1b2d" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Area_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TriangulosValidos_RetornaResultadoEsperado(a: 4, b: 5, c: 3, esperado: True)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="12438906-7c64-a6b9-dec7-cc6011a89201">
+      <Execution id="d9f7f512-0921-402e-8be0-668dfedffc55" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="EhRetangulo_TriangulosValidos_RetornaResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 4)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="7d6fbfd6-e88f-df04-4828-964c3a7489e8">
+      <Execution id="97256a50-ef8f-4ea5-aaf8-5ced53351126" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Perimetro_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado(a: 4, b: 5, c: 3, esperado: Retangulo)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="52bbcad8-a6a5-4528-9ae0-8f788c95b00f">
+      <Execution id="e326eca7-ffee-4702-b29d-663ae9378efb" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TriangulosValidos_RetornaResultadoEsperado(a: 2, b: 2, c: 2, esperado: False)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="e7591361-f53a-5961-3517-0a25cc843d11">
+      <Execution id="b884874b-e4ac-4ed8-ad74-bc067c1882ee" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="EhRetangulo_TriangulosValidos_RetornaResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TriangulosValidos_RetornaResultadoEsperado(a: 5, b: 3, c: 4, esperado: True)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="3d057426-43d2-e2ac-1362-b86b171e1e93">
+      <Execution id="8ca0c2b0-20c6-47f7-8aef-57a1b83f0b23" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="EhRetangulo_TriangulosValidos_RetornaResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.AnalisadorTrianguloTests.Analisar_Triangulo345_RetornaAnaliseCompleta" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="12d6d423-433d-2c6c-46bb-ca32a6ee7308">
+      <Execution id="462074b7-e23e-459c-92d1-10e8250cbfd8" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.AnalisadorTrianguloTests" name="Analisar_Triangulo345_RetornaAnaliseCompleta" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Angulos_TrianguloValido_RetornaAngulosCorretos(a: 2, b: 2, c: 2, esperadoA: 60, esperadoB: 60, esperadoC: 60)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="d3095547-416a-0fb3-7499-0e1ad86431e6">
+      <Execution id="b04438ad-da79-44f0-9d40-801c8ebab4ba" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Angulos_TrianguloValido_RetornaAngulosCorretos" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.Classificar_DoisLadosIguais_RetornaIsosceles(a: 3, b: 2, c: 2)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="5933dda7-f480-a915-57d5-30a098829b21">
+      <Execution id="205c7f4a-bdfd-4340-a25a-5cea6dacc056" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="Classificar_DoisLadosIguais_RetornaIsosceles" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Angulos_TrianguloValido_RetornaAngulosCorretos(a: 5, b: 3, c: 4, esperadoA: 90, esperadoB: 36,869999999999997, esperadoC: 53,130000000000003)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="8835f651-3c57-d719-3a81-3d426d61b487">
+      <Execution id="a533d715-3372-4254-9ad4-214a82031d5d" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Angulos_TrianguloValido_RetornaAngulosCorretos" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TriangulosValidos_RetornaResultadoEsperado(a: 2, b: 3, c: 4, esperado: False)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="b1d43c89-f3e1-01fc-1496-b86fb0201796">
+      <Execution id="8a58ff4f-4b50-4f75-b29a-a5879413763c" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="EhRetangulo_TriangulosValidos_RetornaResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.AnalisadorTrianguloTests.Analisar_TrianguloInvalido_LancaTrianguloInvalidoException(a: -1, b: 2, c: 2)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="1d81a6b1-5f77-ad45-b614-c5d48d6d54dc">
+      <Execution id="0fe597df-f998-409d-beaf-ac1705b12b27" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.AnalisadorTrianguloTests" name="Analisar_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 1, b: 2, c: 3, esperado: False)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="e8ff6785-726d-eef3-653d-ebe5e63d3353">
+      <Execution id="bc3602a8-f483-41b3-940d-e1ab46946784" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="EhTriangulo_EntradasVariadas_RetornaResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ExemploTests.Classificar_TresLadosDiferentes_RetornaEscaleno" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="d605dd75-a0f0-efa8-17a6-33076763af72">
+      <Execution id="94d3ef5b-3bc4-4209-82f7-69357dc102c3" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ExemploTests" name="Classificar_TresLadosDiferentes_RetornaEscaleno" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: 2, b: 3, c: 4, esperado: True)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="6072f4d4-7d46-5dcf-4d8b-1bd5602f6dac">
+      <Execution id="0742ab0e-9165-4e7d-aef1-c3f27eec7787" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="EhTriangulo_EntradasVariadas_RetornaResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.Classificar_SomaDeDoisLadosIgualAoTerceiro_RetornaNaoEhTriangulo(a: 1, b: 2, c: 3)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="294a00ef-b2dc-f98a-bd7a-a67199734f46">
+      <Execution id="1a26d97e-474e-4397-b9d4-bc20d75b52cd" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="Classificar_SomaDeDoisLadosIgualAoTerceiro_RetornaNaoEhTriangulo" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 4)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="f1e0f2ca-47a5-47e9-831c-1ef59658b3b7">
+      <Execution id="c6d5aa91-1e9e-4eff-b1e3-fc7ae7f5f77a" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="ClassificarPorAngulo_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloInvalido_LancaTrianguloInvalidoException(a: 0, b: 2, c: 2)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="49d94c77-846b-71b6-b111-dfd8ce15ce0a">
+      <Execution id="e2266ed9-da6f-4d14-a67d-b6236d0cda87" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Area_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TrianguloInvalido_LancaTrianguloInvalidoException(a: 0, b: 2, c: 2)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="b8d1e4df-4361-4eb6-dacd-fe5d6a1fe1c9">
+      <Execution id="d33ea594-66b8-47dc-872f-6bcda2af02e4" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="EhRetangulo_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Angulos_TrianguloInvalido_LancaTrianguloInvalidoException(a: 0, b: 2, c: 2)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="8b63b011-c6ab-f7a3-03c7-630802668c79">
+      <Execution id="d2deb490-ddd0-4430-bdd7-b25653282a7b" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Angulos_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.Api.ExemploApiTests.Health_RetornaOk" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="46a4207c-504c-d7e7-2ace-896fe6d82530">
+      <Execution id="3d336476-c748-4eb6-ba46-ea7ea9ff1687" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.Api.ExemploApiTests" name="Health_RetornaOk" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.Api.TriangulosApiTests.Analisar_JsonMalformado_Retorna400" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="be5062c7-f545-619b-2f2e-86bd91847beb">
+      <Execution id="129bf100-1f58-4462-86c3-97008c8a4467" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.Api.TriangulosApiTests" name="Analisar_JsonMalformado_Retorna400" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 3)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="6287f04f-8e76-5caf-f2c4-5baefb1a4166">
+      <Execution id="c52f0758-7288-44b1-8149-5f6e20a53d1d" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Perimetro_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado(a: 2, b: 2, c: 2, esperado: Acutangulo)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="568ac72c-30d5-594c-b00a-d4a4a6a31bb0">
+      <Execution id="e9b4b291-7790-4472-ad6b-9dcd5e8d728d" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="ClassificarPorAngulo_TrianguloValido_RetornaTipoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Angulos_TrianguloValido_RetornaAngulosCorretos(a: 4, b: 5, c: 3, esperadoA: 53,130000000000003, esperadoB: 90, esperadoC: 36,869999999999997)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="d0896bcd-e035-c945-bed5-fb6b14ee43b1">
+      <Execution id="892e0332-0d9f-4083-9c44-b90e41bd3c79" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Angulos_TrianguloValido_RetornaAngulosCorretos" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloValido_RetornaSomaDosLados(a: 3, b: 4, c: 5, esperado: 12)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="632f2354-b6ed-522c-5584-1136c50af43e">
+      <Execution id="c8cdcbb1-a4a1-40fb-8b8a-8993f39218df" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Perimetro_TrianguloValido_RetornaSomaDosLados" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.AnalisadorTrianguloTests.Analisar_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 4)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="986b19c7-b616-d18d-2d0c-638124abcd3c">
+      <Execution id="d4d0c369-f2d4-463d-b1bb-ec75ba7cde05" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.AnalisadorTrianguloTests" name="Analisar_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.AnalisadorTrianguloTests.Analisar_TrianguloInvalido_LancaTrianguloInvalidoException(a: 0, b: 2, c: 2)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="aec31bf0-d3b0-5cf7-52eb-6ea70a08142e">
+      <Execution id="83b925ae-5c6d-421a-9062-aaf5a59c763d" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.AnalisadorTrianguloTests" name="Analisar_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Perimetro_TrianguloValido_RetornaSomaDosLados(a: 2, b: 3, c: 4, esperado: 9)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="72fbecaa-a109-01ec-d6a9-c5a8f9986998">
+      <Execution id="0b4f8b9f-68a0-42c8-9928-52b4409d0b9a" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Perimetro_TrianguloValido_RetornaSomaDosLados" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.Classificar_DoisLadosIguais_RetornaIsosceles(a: 2, b: 2, c: 3)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="822299f6-7732-98af-061c-86c91ac3c152">
+      <Execution id="02381095-654f-48fb-8757-c342ba5cb9eb" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="Classificar_DoisLadosIguais_RetornaIsosceles" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.ClassificarPorAngulo_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 3)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="a4bb509c-0346-ecfe-ea50-aa4a1b0738c0">
+      <Execution id="b1abb687-a929-4363-9ec4-0128ffb80255" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="ClassificarPorAngulo_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.AnalisadorTrianguloTests.Analisar_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 3)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="92d492ba-fe3b-36b7-2de5-58a8580bd22d">
+      <Execution id="fcfa7e4d-28fa-47be-b874-a50ebd6fd03b" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.AnalisadorTrianguloTests" name="Analisar_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.Api.TriangulosApiTests.Analisar_TrianguloInvalido_Retorna422" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="7058c156-b56a-1204-3274-cfcf5c5117ce">
+      <Execution id="34c3259c-7005-43c9-abfe-f4589d7778cb" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.Api.TriangulosApiTests" name="Analisar_TrianguloInvalido_Retorna422" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ClassificadorTrianguloTests.EhTriangulo_EntradasVariadas_RetornaResultadoEsperado(a: -1, b: 2, c: 2, esperado: False)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="20bb0c7e-2884-ff49-04e5-c0da2091c098">
+      <Execution id="1de83959-3d92-410c-aada-7f98208ae666" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ClassificadorTrianguloTests" name="EhTriangulo_EntradasVariadas_RetornaResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.EhRetangulo_TrianguloInvalido_LancaTrianguloInvalidoException(a: 1, b: 2, c: 4)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="5132f3e5-46d0-d284-1be5-b1ef0cca2a15">
+      <Execution id="0c97f0ae-1158-4a77-a57a-59afae299b58" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="EhRetangulo_TrianguloInvalido_LancaTrianguloInvalidoException" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.CalculadoraTrianguloTests.Area_TrianguloValido_RetornaAreaPelaFormulaDeHeron(a: 3, b: 4, c: 5, esperado: 6)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="11c868a3-0686-4561-f731-12918876c1d8">
+      <Execution id="29a4ae97-9a4e-4d7f-906b-a51bb22d0a0c" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.CalculadoraTrianguloTests" name="Area_TrianguloValido_RetornaAreaPelaFormulaDeHeron" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.Api.TriangulosApiTests.Classificar_Triangulo345_Retorna200Escaleno" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="a368ed35-4128-32fb-c029-7f7e77ff0d32">
+      <Execution id="98b0938a-374a-4c77-816f-5972a6439fa4" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.Api.TriangulosApiTests" name="Classificar_Triangulo345_Retorna200Escaleno" />
+    </UnitTest>
+    <UnitTest name="Triangulos.Tests.ExemploTests.Classificar_TresLadosIguais_RetornaEquilatero(a: 2,5, b: 2,5, c: 2,5)" storage="c:\users\lenovo\downloads\triangulos\tests\triangulos.tests\bin\debug\net8.0\triangulos.tests.dll" id="70701cf2-cc3c-9d3e-d720-719e096ac8e2">
+      <Execution id="b8b6c140-28db-45d2-a6be-2594a3984518" />
+      <TestMethod codeBase="C:\Users\Lenovo\Downloads\Triangulos\tests\Triangulos.Tests\bin\Debug\net8.0\Triangulos.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Triangulos.Tests.ExemploTests" name="Classificar_TresLadosIguais_RetornaEquilatero" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="52bbcad8-a6a5-4528-9ae0-8f788c95b00f" executionId="e326eca7-ffee-4702-b29d-663ae9378efb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3279f59-88ea-aeee-f5e0-a38e830ed34a" executionId="3ee633e8-1985-4d67-9a84-cb46ccd97cd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1370eec6-dc8f-51a6-46bb-b58e83cc8f57" executionId="7831b223-5541-43d5-9c0a-2a13c16a1f96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7058c156-b56a-1204-3274-cfcf5c5117ce" executionId="34c3259c-7005-43c9-abfe-f4589d7778cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff5e8970-269c-2cb5-db19-3b8839cc2964" executionId="3d774cc5-8443-41d7-bb14-d4cb7153a1d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94aa88b3-e395-de06-7841-315c2816a2a1" executionId="2ed41afa-5efd-4cb6-a6ce-ea256efc71f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0630e6f0-21f9-35e6-7a42-ede79370cf0c" executionId="0aaf4c4d-2721-455c-9e2c-695db83003e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53f6a036-6cc0-07c2-f8fb-55d67e1e67b1" executionId="f7ba5162-db92-478c-b998-f6a38e135355" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1f3f899-0689-b44c-0990-18ad6ecc5520" executionId="5e0143f4-0513-4d7f-ba89-59ad85319426" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42c04302-25c9-973e-c672-a29da3712f14" executionId="8963a3da-ad11-4554-900e-7887a4c73d51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="294a00ef-b2dc-f98a-bd7a-a67199734f46" executionId="1a26d97e-474e-4397-b9d4-bc20d75b52cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81738bd0-175d-c1ff-ccf1-5f34685627fd" executionId="42f55e45-695c-40bf-ad32-6146d83c59bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="592613be-f2df-cbc8-26ba-0b16cf32ec84" executionId="0650f64a-9b66-4989-893a-72f2a09de860" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76a72ec6-7887-3564-ba6b-b6c60f915364" executionId="10994ad2-f2cd-4baa-8951-df6eb5c8eb93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6287f04f-8e76-5caf-f2c4-5baefb1a4166" executionId="c52f0758-7288-44b1-8149-5f6e20a53d1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9c941e4-81db-051d-4ac9-f6567e88a549" executionId="9e8083b0-4abd-479f-8381-8f5092d89a44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12438906-7c64-a6b9-dec7-cc6011a89201" executionId="d9f7f512-0921-402e-8be0-668dfedffc55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2f94ccb-1a29-3847-d859-5464933255af" executionId="e0cafec3-2f88-4953-8c6f-ea53276122b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cea95c20-9c37-03b3-5810-d1a9f1344262" executionId="e11782e8-fedd-49bd-be9b-f6502fa5a961" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d2a9ca5-1af5-d5f2-2d60-3de044fb5cef" executionId="99a9cb2c-d57c-4125-8ebc-363fa1fc1b2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d81a6b1-5f77-ad45-b614-c5d48d6d54dc" executionId="0fe597df-f998-409d-beaf-ac1705b12b27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7591361-f53a-5961-3517-0a25cc843d11" executionId="b884874b-e4ac-4ed8-ad74-bc067c1882ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11c868a3-0686-4561-f731-12918876c1d8" executionId="29a4ae97-9a4e-4d7f-906b-a51bb22d0a0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2f31740-0b7b-9bfb-5e1c-34892eccab95" executionId="7840f0cc-6acb-4235-97f2-22cab9d688a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8ff6785-726d-eef3-653d-ebe5e63d3353" executionId="bc3602a8-f483-41b3-940d-e1ab46946784" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3b4988c-d4f3-91ab-8505-7aba6ec32b28" executionId="9950fa79-3d3e-4168-a39f-93bf1ca91ca5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="986b19c7-b616-d18d-2d0c-638124abcd3c" executionId="d4d0c369-f2d4-463d-b1bb-ec75ba7cde05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38db4a5b-6551-f7a1-a995-a3b112aaeffe" executionId="bbe1c2ce-74b6-462c-b907-130d52804431" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49d94c77-846b-71b6-b111-dfd8ce15ce0a" executionId="e2266ed9-da6f-4d14-a67d-b6236d0cda87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92d492ba-fe3b-36b7-2de5-58a8580bd22d" executionId="fcfa7e4d-28fa-47be-b874-a50ebd6fd03b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="568ac72c-30d5-594c-b00a-d4a4a6a31bb0" executionId="e9b4b291-7790-4472-ad6b-9dcd5e8d728d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7aa341a7-59b1-d9e9-cca9-d75308ad427d" executionId="acef3be4-0e02-4910-b55c-eeb16106da4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ceded00d-0dbd-8034-ea30-f9a1c1c58687" executionId="6565bb4d-5bcb-4449-bbf4-0dfc375dfac7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="632f2354-b6ed-522c-5584-1136c50af43e" executionId="c8cdcbb1-a4a1-40fb-8b8a-8993f39218df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b63b011-c6ab-f7a3-03c7-630802668c79" executionId="d2deb490-ddd0-4430-bdd7-b25653282a7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1e0f2ca-47a5-47e9-831c-1ef59658b3b7" executionId="c6d5aa91-1e9e-4eff-b1e3-fc7ae7f5f77a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72fbecaa-a109-01ec-d6a9-c5a8f9986998" executionId="0b4f8b9f-68a0-42c8-9928-52b4409d0b9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aec31bf0-d3b0-5cf7-52eb-6ea70a08142e" executionId="83b925ae-5c6d-421a-9062-aaf5a59c763d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a413921-7cda-2943-5d1f-50980bd2f7bd" executionId="59d2f62b-0319-429d-b394-8fadd035a214" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e7caac8-8f5e-461a-7f55-c8b71eea8168" executionId="62250a8b-ba94-49e9-8cd7-a31e9e62bfc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20bb0c7e-2884-ff49-04e5-c0da2091c098" executionId="1de83959-3d92-410c-aada-7f98208ae666" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d057426-43d2-e2ac-1362-b86b171e1e93" executionId="8ca0c2b0-20c6-47f7-8aef-57a1b83f0b23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0896bcd-e035-c945-bed5-fb6b14ee43b1" executionId="892e0332-0d9f-4083-9c44-b90e41bd3c79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a368ed35-4128-32fb-c029-7f7e77ff0d32" executionId="98b0938a-374a-4c77-816f-5972a6439fa4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46a4207c-504c-d7e7-2ace-896fe6d82530" executionId="3d336476-c748-4eb6-ba46-ea7ea9ff1687" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3095547-416a-0fb3-7499-0e1ad86431e6" executionId="b04438ad-da79-44f0-9d40-801c8ebab4ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f90b76c5-f071-1263-f244-4cf02c452a9e" executionId="5a7898f1-b486-45d3-a843-2742fc9fbd45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a7b1ec1-4c7f-5a7d-8626-2292757278e6" executionId="b8a6e165-3022-42cf-aecc-7d9683835270" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be5062c7-f545-619b-2f2e-86bd91847beb" executionId="129bf100-1f58-4462-86c3-97008c8a4467" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12d6d423-433d-2c6c-46bb-ca32a6ee7308" executionId="462074b7-e23e-459c-92d1-10e8250cbfd8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70701cf2-cc3c-9d3e-d720-719e096ac8e2" executionId="b8b6c140-28db-45d2-a6be-2594a3984518" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d6fbfd6-e88f-df04-4828-964c3a7489e8" executionId="97256a50-ef8f-4ea5-aaf8-5ced53351126" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5132f3e5-46d0-d284-1be5-b1ef0cca2a15" executionId="0c97f0ae-1158-4a77-a57a-59afae299b58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11a74777-3e3f-2579-e9bf-d48e6e9ca5b5" executionId="f63d8588-7f08-4a49-809c-dc73665ac540" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc41fb58-f46f-6b60-2143-6760b6f150e8" executionId="de0104a6-945d-4590-ac94-7149938713ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6072f4d4-7d46-5dcf-4d8b-1bd5602f6dac" executionId="0742ab0e-9165-4e7d-aef1-c3f27eec7787" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="222ed52b-19c7-be9f-d6f5-d901a1bac3ab" executionId="4e4561af-4d98-416c-8cb1-c52803efd78c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfc53a7a-a45f-e873-219f-db6770799ce4" executionId="8c5ea4b9-71a0-4844-aaf8-b1798a05f037" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5933dda7-f480-a915-57d5-30a098829b21" executionId="205c7f4a-bdfd-4340-a25a-5cea6dacc056" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8835f651-3c57-d719-3a81-3d426d61b487" executionId="a533d715-3372-4254-9ad4-214a82031d5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8ed99f9-552f-7f10-667f-8b3defe3814b" executionId="f5e986d5-512a-46a1-ba59-324763a58498" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d605dd75-a0f0-efa8-17a6-33076763af72" executionId="94d3ef5b-3bc4-4209-82f7-69357dc102c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="822299f6-7732-98af-061c-86c91ac3c152" executionId="02381095-654f-48fb-8757-c342ba5cb9eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b823932-e82c-405e-3445-f812721c6883" executionId="e5a548d5-c83a-4f72-8a96-029ca85ee25e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1d43c89-f3e1-01fc-1496-b86fb0201796" executionId="8a58ff4f-4b50-4f75-b29a-a5879413763c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4bb509c-0346-ecfe-ea50-aa4a1b0738c0" executionId="b1abb687-a929-4363-9ec4-0128ffb80255" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c112402-a249-3b32-7b0b-952c32058a61" executionId="3d8f18cb-97d6-4a32-b74c-ea651bb4f3e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4178580-80d3-1708-f75f-d7d889cb1941" executionId="90a21cc0-6ef2-458c-b1da-093dad8101a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e34b37e-fe43-e5f5-51d2-6c8ec91ee91b" executionId="4029e7fd-34ea-46c7-9103-836f7fe5e921" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73d2f412-9bcc-4e1b-24a6-837f2d53f5e9" executionId="80cafd4e-c6af-447a-a8c6-ceef43419cc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c970e88-d653-e734-25dd-8b3ce1bd025c" executionId="5d31dc63-4ab3-476c-997e-3a1f15428916" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b2f0f18-66e7-62de-2838-2f5cc895a695" executionId="83480e70-1dea-4b29-bd55-4bda4f723b9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8d1e4df-4361-4eb6-dacd-fe5d6a1fe1c9" executionId="d33ea594-66b8-47dc-872f-6bcda2af02e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="73" executed="73" passed="73" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.31)&#xD;
+[xUnit.net 00:00:00.56]   Discovering: Triangulos.Tests&#xD;
+[xUnit.net 00:00:00.85]   Discovered:  Triangulos.Tests&#xD;
+[xUnit.net 00:00:00.86]   Starting:    Triangulos.Tests&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]&#xD;
+      Request starting HTTP/1.1 GET http://localhost/api/triangulos/classificar?a=3&amp;b=4&amp;c=5 - - -&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]&#xD;
+      Request starting HTTP/1.1 POST http://localhost/api/triangulos/analisar - application/json;+charset=utf-8 13&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]&#xD;
+      Executing endpoint 'HTTP: GET /api/triangulos/classificar'&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]&#xD;
+      Executing endpoint 'HTTP: POST /api/triangulos/analisar'&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]&#xD;
+      Executed endpoint 'HTTP: POST /api/triangulos/analisar'&#xD;
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]&#xD;
+      Setting HTTP status code 200.&#xD;
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]&#xD;
+      An unhandled exception has occurred while executing the request.&#xD;
+      Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "LadosRequest lados" from the request body as JSON.&#xD;
+       ---&gt; System.Text.Json.JsonException: Expected start of a property name or value, but instead reached end of data. Path: $ | LineNumber: 0 | BytePositionInLine: 12.&#xD;
+       ---&gt; System.Text.Json.JsonReaderException: Expected start of a property name or value, but instead reached end of data. LineNumber: 0 | BytePositionInLine: 12.&#xD;
+         at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader&amp; json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)&#xD;
+         at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)&#xD;
+         at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)&#xD;
+         at System.Text.Json.Utf8JsonReader.ReadSingleSegment()&#xD;
+         at System.Text.Json.Utf8JsonReader.Read()&#xD;
+         at System.Text.Json.Serialization.Converters.ObjectWithParameterizedConstructorConverter`1.ReadConstructorArgumentsWithContinuation(ReadStack&amp; state, Utf8JsonReader&amp; reader, JsonSerializerOptions options)&#xD;
+         at System.Text.Json.Serialization.Converters.ObjectWithParameterizedConstructorConverter`1.OnTryRead(Utf8JsonReader&amp; reader, Type typeToConvert, JsonSerializerOptions options, ReadStack&amp; state, T&amp; value)&#xD;
+         at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader&amp; reader, Type typeToConvert, JsonSerializerOptions options, ReadStack&amp; state, T&amp; value, Boolean&amp; isPopulatedValue)&#xD;
+         at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, JsonSerializerOptions options, ReadStack&amp; state)&#xD;
+         --- End of inner exception stack trace ---&#xD;
+         at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack&amp; state, JsonReaderException ex)&#xD;
+         at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, JsonSerializerOptions options, ReadStack&amp; state)&#xD;
+         at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState&amp; bufferState, JsonReaderState&amp; jsonReaderState, ReadStack&amp; readStack)&#xD;
+         at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)&#xD;
+         at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)&#xD;
+         at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)&#xD;
+         at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)&#xD;
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)&#xD;
+         --- End of inner exception stack trace ---&#xD;
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.Log.InvalidJsonRequestBody(HttpContext httpContext, String parameterTypeName, String parameterName, Exception exception, Boolean shouldThrow)&#xD;
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)&#xD;
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.&lt;&gt;c__DisplayClass102_2.&lt;&lt;HandleRequestBodyAndCompileRequestDelegateForJson&gt;b__2&gt;d.MoveNext()&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.&lt;Invoke&gt;g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)&#xD;
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)&#xD;
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]&#xD;
+      Writing value of type '&lt;&gt;f__AnonymousType1`1' as Json.&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]&#xD;
+      Executed endpoint 'HTTP: GET /api/triangulos/classificar'&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]&#xD;
+      Request finished HTTP/1.1 GET http://localhost/api/triangulos/classificar?a=3&amp;b=4&amp;c=5 - 200 - application/json;+charset=utf-8 126.5230ms&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]&#xD;
+      Request finished HTTP/1.1 POST http://localhost/api/triangulos/analisar - 400 - text/plain;+charset=utf-8 136.2302ms&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]&#xD;
+      Request starting HTTP/1.1 GET http://localhost/health - - -&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]&#xD;
+      Executing endpoint 'HTTP: GET /health'&#xD;
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]&#xD;
+      Setting HTTP status code 200.&#xD;
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]&#xD;
+      Writing value of type '&lt;&gt;f__AnonymousType0`1' as Json.&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]&#xD;
+      Executed endpoint 'HTTP: GET /health'&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]&#xD;
+      Request finished HTTP/1.1 GET http://localhost/health - 200 - application/json;+charset=utf-8 7.4155ms&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]&#xD;
+      Request starting HTTP/1.1 POST http://localhost/api/triangulos/analisar - application/json;+charset=utf-8 19&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]&#xD;
+      Executing endpoint 'HTTP: POST /api/triangulos/analisar'&#xD;
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]&#xD;
+      Setting HTTP status code 200.&#xD;
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]&#xD;
+      Writing value of type 'AnaliseTriangulo' as Json.&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]&#xD;
+      Executed endpoint 'HTTP: POST /api/triangulos/analisar'&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]&#xD;
+      Request finished HTTP/1.1 POST http://localhost/api/triangulos/analisar - 200 - application/json;+charset=utf-8 13.1947ms&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]&#xD;
+      Request starting HTTP/1.1 GET http://localhost/api/triangulos/classificar?a=3&amp;b=4 - - -&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]&#xD;
+      Executing endpoint 'HTTP: GET /api/triangulos/classificar'&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]&#xD;
+      Executed endpoint 'HTTP: GET /api/triangulos/classificar'&#xD;
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]&#xD;
+      An unhandled exception has occurred while executing the request.&#xD;
+      Microsoft.AspNetCore.Http.BadHttpRequestException: Required parameter "double c" was not provided from query string.&#xD;
+         at lambda_method112(Closure, Object, HttpContext)&#xD;
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)&#xD;
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]&#xD;
+      Request finished HTTP/1.1 GET http://localhost/api/triangulos/classificar?a=3&amp;b=4 - 400 - text/plain;+charset=utf-8 4.1579ms&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]&#xD;
+      Request starting HTTP/1.1 GET http://localhost/api/triangulos/classificar?a=abc&amp;b=4&amp;c=5 - - -&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]&#xD;
+      Executing endpoint 'HTTP: GET /api/triangulos/classificar'&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]&#xD;
+      Executed endpoint 'HTTP: GET /api/triangulos/classificar'&#xD;
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]&#xD;
+      An unhandled exception has occurred while executing the request.&#xD;
+      Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to bind parameter "double a" from "abc".&#xD;
+         at lambda_method112(Closure, Object, HttpContext)&#xD;
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)&#xD;
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]&#xD;
+      Request finished HTTP/1.1 GET http://localhost/api/triangulos/classificar?a=abc&amp;b=4&amp;c=5 - 400 - text/plain;+charset=utf-8 2.2199ms&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]&#xD;
+      Request starting HTTP/1.1 GET http://localhost/api/triangulos/classificar?a=3&amp;b=4&amp;c=5 - - -&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]&#xD;
+      Executing endpoint 'HTTP: GET /api/triangulos/classificar'&#xD;
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]&#xD;
+      Setting HTTP status code 200.&#xD;
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]&#xD;
+      Writing value of type '&lt;&gt;f__AnonymousType1`1' as Json.&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]&#xD;
+      Executed endpoint 'HTTP: GET /api/triangulos/classificar'&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]&#xD;
+      Request finished HTTP/1.1 GET http://localhost/api/triangulos/classificar?a=3&amp;b=4&amp;c=5 - 200 - application/json;+charset=utf-8 1.0035ms&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]&#xD;
+      Request starting HTTP/1.1 GET http://localhost/api/triangulos/classificar?a=1&amp;b=2&amp;c=4 - - -&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]&#xD;
+      Executing endpoint 'HTTP: GET /api/triangulos/classificar'&#xD;
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]&#xD;
+      Setting HTTP status code 200.&#xD;
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]&#xD;
+      Writing value of type '&lt;&gt;f__AnonymousType1`1' as Json.&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]&#xD;
+      Executed endpoint 'HTTP: GET /api/triangulos/classificar'&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]&#xD;
+      Request finished HTTP/1.1 GET http://localhost/api/triangulos/classificar?a=1&amp;b=2&amp;c=4 - 200 - application/json;+charset=utf-8 0.9408ms&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]&#xD;
+      Request starting HTTP/1.1 GET http://localhost/health - - -&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]&#xD;
+      Executing endpoint 'HTTP: GET /health'&#xD;
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]&#xD;
+      Setting HTTP status code 200.&#xD;
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]&#xD;
+      Writing value of type '&lt;&gt;f__AnonymousType0`1' as Json.&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]&#xD;
+      Executed endpoint 'HTTP: GET /health'&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]&#xD;
+      Request finished HTTP/1.1 GET http://localhost/health - 200 - application/json;+charset=utf-8 1.8864ms&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]&#xD;
+      Request starting HTTP/1.1 POST http://localhost/api/triangulos/analisar - application/json;+charset=utf-8 19&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]&#xD;
+      Executing endpoint 'HTTP: POST /api/triangulos/analisar'&#xD;
+info: Microsoft.AspNetCore.Http.Result.UnprocessableEntityObjectResult[1]&#xD;
+      Setting HTTP status code 422.&#xD;
+info: Microsoft.AspNetCore.Http.Result.UnprocessableEntityObjectResult[3]&#xD;
+      Writing value of type '&lt;&gt;f__AnonymousType2`1' as Json.&#xD;
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]&#xD;
+      Executed endpoint 'HTTP: POST /api/triangulos/analisar'&#xD;
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]&#xD;
+      Request finished HTTP/1.1 POST http://localhost/api/triangulos/analisar - 422 - application/json;+charset=utf-8 2.7134ms&#xD;
+[xUnit.net 00:00:01.55]   Finished:    Triangulos.Tests&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="DESKTOP-2B179U5" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="DESKTOP-2B179U5\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>
