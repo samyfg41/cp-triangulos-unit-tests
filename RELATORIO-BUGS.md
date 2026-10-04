@@ -12,7 +12,7 @@
 
 | Item | Valor |
 |------|-------|
-| Total de casos de teste escritos | 73    |
+| Total de casos de teste escritos | 79    |
 | Casos vermelhos no codigo original ("antes") | 22    |
 | Casos vermelhos no codigo corrigido ("depois") | 0     |
 | Cobertura de linhas (Triangulos.Core) | 100%  |
@@ -30,6 +30,7 @@ Preencha uma linha por bug. Seja especifico: "calculo errado" nao e uma descrica
 | B04 | RN06 | (5,3,4) -> angulo C incorreto x 53.13 | CalculadoraTriangulo.cs:Angulos | O denominador da lei dos cossenos para o angulo C utilizava 2*a*c em vez de 2*a*b | Corrigido o denominador do calculo do angulo C para 2*a*b | Angulos_TrianguloValido_RetornaAngulosCorretos | 91a7387 |
 | B05 | RN07 | (5,3,4) -> false x true | CalculadoraTriangulo.cs:EhRetangulo | O metodo considerava sempre c como hipotenusa e utilizava igualdade exata entre doubles | O maior lado passou a ser identificado como hipotenusa e foi aplicada a tolerancia relativa de 1e-9*z² | EhRetangulo_TriangulosValidos_RetornaResultadoEsperado | 914d23f |
 | B06 | Contrato da API | GET /classificar?a=3&b=4 -> 200 x 400 | Program.cs:/api/triangulos/classificar | O parametro c possuia valor padrao 0 e por isso era tratado como opcional | Removido o valor padrao de c, tornando os tres parametros obrigatorios | Classificar_ParametroAusente_Retorna400 | 72fa1d2 |
+| B07 | RN01 | (NaN,2,2) -> true x false | ClassificadorTriangulo.cs:EhTriangulo | O metodo verificava apenas se os lados eram maiores que zero, sem validar explicitamente se os valores eram finitos | Adicionada a verificacao com double.IsFinite para os tres lados | EhTriangulo_LadoNaoFinito_RetornaFalse | eeab87d |
 
 ## 3. Prova de sensibilidade (pelo menos 3 bugs)
 
@@ -43,7 +44,7 @@ Para cada bug escolhido: reintroduza o defeito, rode o teste e cole a saida que 
 
 ## 4. Bugs que eu NAO consegui corrigir / duvidas
 
-Nenhum. Todos os bugs identificados foram corrigidos e a suite final ficou com 73 testes aprovados e 0 falhas.
+Nenhum. Todos os bugs identificados foram corrigidos e a suite final ficou com 79 testes aprovados e 0 falhas.
 
 ## 5. O que aprendi
 
