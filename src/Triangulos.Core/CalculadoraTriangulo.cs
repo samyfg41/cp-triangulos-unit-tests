@@ -33,7 +33,10 @@ public static class CalculadoraTriangulo
     {
         GarantirTriangulo(a, b, c);
 
-        return a * a + b * b == c * c;
+        var z = Math.Max(a, Math.Max(b, c));
+        var somaQuadradosDosOutros = a * a + b * b + c * c - z * z;
+
+        return Math.Abs(somaQuadradosDosOutros - z * z) <= 1e-9 * z * z;
     }
 
     public static TipoPorAngulo ClassificarPorAngulo(double a, double b, double c)
